@@ -257,16 +257,12 @@ h2 {
 
 /* Start Dark Mode */
 
-@media (prefers-color-scheme: dark) {
-    /* body {
-        background: #1d2029;
-        color: white;
-    } */
+
     .is-dark-mode {
         --cardGray: #252b43;
         --gray: #8088ad;
         --lightGray: #1d2029;
-        --baseBacckground: #1d2029;
+        --baseBackground: #1d2029;
         --baseColor: white;
         --cardTitle: #8088ad;
         --switchSpinner: #282943;
@@ -282,34 +278,15 @@ h2 {
         --switchSpinner: white;
         --switch: #5f616d;
     }
+    @media (prefers-color-scheme: dark) {
     :root {
         --cardGray: #252b43;
         --gray: #8088ad;
         --lightGray: #1d2029;
-        --baseBacckground: #1d2029;
+        --baseBackground: #1d2029;
         --baseColor: white;
         --cardTitle: #8088ad;
         --switchSpinner: #282943;
         --switch: linear-gradient(to right, #4796d2 0%, #37cd8f 100% );
     }
-    /* .card {
-    } */
-    /* .card-followers-title {
-        color: #8088ad;
-    } */
-    /* .card-title {
-        color: var(--gray);
-    } */
-    /* .card-small {
-        background: #252b43;
-    } */
-    /* .card-small-views {
-        color: #8088ad;
-    } */
-    /* .switch {
-        background-image: 
-    } */
-    /* .switch::before {
-        background: #282943;
-    } */
-}
+} 
